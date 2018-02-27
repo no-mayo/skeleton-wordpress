@@ -1,0 +1,38 @@
+/*!
+Theme Name: No Mayo Custom
+Theme URI: /
+Author: No Mayo
+Author URI: http://no-mayo.digital
+Version: 1.0
+Text Domain: nomayocustom
+*/
+
+// Vendor styles
+// @import 'vendor/carousel';
+
+// Utilities
+@import "utilities/variables";
+
+// Component styles
+@import "components/header";
+@import "components/footer";
+
+// Template styles
+@import "templates/home";
+
+// Global styles
+
+html {
+  font-family: $fontStackSanSerif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+header,
+main,
+footer {
+  margin: 0 auto;
+  max-width: 960px;
+  padding: 2rem 0;
+  width: 98%;
+}
