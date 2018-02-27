@@ -62,3 +62,10 @@ Coming soon.
 ## Deployment: Production
 
 Coming soon.
+
+Please note: Database migrations are not currently much of a 'thing' in the WordPress development workflow, so please discuss this with the team to make sure that everyone is on board with how to manually keep development and production databases in line. **Remember: always back up the production database before doing anything else!**
+
+**Post-Deploy Checklist**
+
+* Are the Updraft Plus (automated backups) and Wordfence (security) plugins activated and configured as required for this project?
+* Does the production database contain the expected records? For example, did you create new pages or posts during development that now also need to be manually created on production? **Back up the production database first!**
